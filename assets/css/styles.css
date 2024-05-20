@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: black;
+}
+.navbar {
+  width: 100%;
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+.slide img {
+  height: 100vh;
+}
+#quienesSomos i {
+  width: 100%;
+  text-align: center;
+  background: #2ca3ad;
+  font-size: 2em;
+}
+#quienesSomos p {
+  padding: 20px;
+}
+.card {
+  color: white;
+}
+.presentacion .card {
+  background: black;
+}
+.destacados img {
+  height: 200px;
+}
+.destacados {
+  width: 100%;
+}
+.footer i {
+  font-size: 1.5em;
+  color: white;
+  padding: 5px;
+}
+@media (max-width: 576px) {
+  .navbar {
+    position: fixed;
+    background: #2ca3ad;
+  }
+  .slide img {
+    height: 60vh;
+  }
+}
